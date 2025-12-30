@@ -17,7 +17,7 @@
 | Hardware must be purchased for startup and maintenance. | Organizations pay only for what they utilize. | Organizations control security, compliance, or legal requiremnents. |
 | Organizations are responsible for hardware maintenance and updates. | Organizations don't have complete control over resources and security. | Supports "Cloud Bursting" to handle heavy spikes of traffic using public resources. |
 
-## Benefits of Cloud Computing (The "Ilities")
+## Benefits of Cloud Computing
 
 - **High Availability:** Ability to keep a system up and running for a long period (minimal downtime) even if things fail.
 - **Scalability:** The ability to handle increases in demand.

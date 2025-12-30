@@ -7,7 +7,9 @@
 ## Daily Learning Log
 
 ### Day 1: Foundation & Infrastructure Setup.
+
 **Date:** December 30, 2025
+
 **Focus:** Cloud Fundalmentals & GRC Enviroment Setup.
 
 - [x] **Portfolio Infrastructure:** Created GitHub Repository `Azure-Security-Journey` and initialized documentation structure.

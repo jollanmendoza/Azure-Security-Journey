@@ -33,7 +33,7 @@
 ## Cloud Economics
 - **Consumption-Based Model:** Only pay for the resources you utilize.
 - **CapEx (Capital Expenditure):** One time, up front expenditure to purchase or secure physical infrastructure.
-- **OpEx (Operational Expenditure):** Spending money on servicees or products over time.
+- **OpEx (Operational Expenditure):** Spending money on services or products over time.
 
 ## Consumption-Based Model Benefits
 - No upfront costs.

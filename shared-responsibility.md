@@ -13,6 +13,6 @@ This table informs who is responsible for what, depending on the clooud service 
 
 | Responsibility | SaaS | PaaS | IaaS | On-Premises |
 | :--- | :--- | :--- | :--- | :--- |
-| Information and Data | Customer | Customer | Customer | Customer | Customer |
-| Devices (PCs & Mobile) | Customer | Customer | Customer | Customer | Customer |
+| Information and Data| Customer | Customer | Customer | Customer | Customer |
+| Devices (PCs & Mobile)| Customer | Customer | Customer | Customer | Customer |
 

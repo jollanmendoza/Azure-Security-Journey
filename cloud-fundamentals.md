@@ -12,10 +12,10 @@
 ## Key Comparative Aspects Between Cloud Models
 | Private Cloud | Public CLoud | Hybird Cloud |
 | :--- | :--- | :--- |
-| Organizations have complete control over both resources and security. |
-| Data is not collocated with other organizations' data. |
-| Hardware must be purchased for startup and maintenance. | 
-| Organizations are responsible for hardware and maintenance and updates. |
+| Organizations have complete control over both resources and security. | No capital expenditures to scale up. | Provides the most flexibility. |
+| Data is not collocated with other organizations' data. | Applications can be quickly provisioned and deprovisioned. | Organizations determine where to run their applications. |
+| Hardware must be purchased for startup and maintenance. | Organizations pay only for what they utilize. | Organizations control security, compliance, or legal requiremnents. |
+| Organizations are responsible for hardware and maintenance and updates. | Organizations don't have complete control over resources and security.
 
 
 ## Key Benefits

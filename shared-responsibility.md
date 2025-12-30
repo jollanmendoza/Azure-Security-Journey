@@ -11,20 +11,20 @@ The Shared Responsibility Model is a framework that identifies which security ta
 **Platform as a Service (PaaS):** Being the middle ground between IaaS and SaaS, this rests in the middle and evenly distributes responsibility between the cloud provider and the consumer.
 
 ## Shared Responsibility Table
-This table informs who is responsible for what (Customer, Microsoft, or Shared), depending on the cloud service type.
+This table informs who is responsible for what (Consumer, Provider, or Shared), depending on the cloud service type.
 
 | Responsibility | SaaS | PaaS | IaaS | On-Premises |
 | :--- | :--- | :--- | :--- | :--- |
-| Information and Data | Customer | Customer | Customer | Customer
-| Devices (PCs & Mobile) | Customer | Customer | Customer | Customer
-| Acounts & Identities |  Customer | Customer | Customer | Customer
-| Identity and Directory Infrastructure | Shared | Shared | Customer | Customer |
-| Applications | Microsoft | Shared | Customer | Customer |
-| Network Controls | Microsoft | Shared | Customer | Customer |
-| Operating System | Microsoft | Microsoft | Customer | Customer |
-| Physical Hosts | Microsoft |  Microsoft | Microsoft | Customer |
-| Physical Network | Microsoft | Microsoft | Microsoft | Customer |
-| Physical Datacenter | Microsoft | Microsoft | Microsoft | Customer|
+| Information and Data | Consumer | Consumer | Consumer | Consumer |
+| Devices (PCs & Mobile) | Consumer | Consumer | Consumer | Consumer |
+| Acounts & Identities |  Consumer | Consumer | Consumer | Consumer |
+| Identity and Directory Infrastructure | Shared | Shared | Consumer | Consumer |
+| Applications | Provider | Shared | Consumer | Consumer |
+| Network Controls | Provider | Shared | Consumer | Consumer |
+| Operating System | Provider | Provider | Consumer | Consumer |
+| Physical Hosts | Provider |  Provider | Provider | Consumer |
+| Physical Network | Provider | Provider | Provider | Consumer |
+| Physical Datacenter | Provider | Provider | Provider | Consumer|
 
 When using a cloud provider, you'll always be responsible for:
 - The information and data stored within the cloud.

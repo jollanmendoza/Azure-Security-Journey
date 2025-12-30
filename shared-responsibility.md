@@ -9,10 +9,13 @@ The Shared Responsibility Model is a framework that identifies which security ta
 **Platform as a Service (PaaS):** Being the middle ground between IaaS and SaaS, this rests in the middle and evenly distributes responsibility between the cloud provider and the consumer.
 
 ## Shared Responsibility Table
-This table informs who is responsible for what, depending on the clooud service type.
+This table informs who is responsible for what (Customer, Microsoft, or Shared), depending on the cloud service type.
 
 | Responsibility | SaaS | PaaS | IaaS | On-Premises |
 | :--- | :--- | :--- | :--- | :--- |
-| Information and Data| Customer | Customer | Customer | Customer | Customer |
-| Devices (PCs & Mobile)| Customer | Customer | Customer | Customer | Customer |
+| Information and Data | Customer | Customer | Customer | Customer
+| Devices (PCs & Mobile) | Customer | Customer | Customer | Customer
+| Acounts & Identities |  Customer | Customer | Customer | Customer
+| Identity and Directory Infrastructure | Shared | Shared | Customer | Customer |
+| Applications | Microsoft | Shared | Customer | Customer |
 

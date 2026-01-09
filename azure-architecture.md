@@ -14,4 +14,8 @@ Azure is a expanding set of cloud services that help meet current/future buisnes
 - Manage subscriptions & accounts.
 - Search for specific services/settings.
 
+Azure Portal allows for the usage of command line interface (CLI) with Powershell and BASH commands. The user also can switch between using either Powershell or BASH commands in a click of a button. When in Powershell mode, the command line starts with PS (PowerShell), and when in BASH mode, the command line starts with your username@azure.
 
+**Most Azure specific commands begin with the letters az. (For both Powershell & BASH).**
+
+**Azure CLI Interactive Mode:** This changes behavior to more resemble an integrated development enviroment. This mode provides autocompletion, command descriptions, and examples which is perfect for beginners who aren't used to using Powershell or BASH but want to still use the command line. (az interactive is the command to enter this mode).

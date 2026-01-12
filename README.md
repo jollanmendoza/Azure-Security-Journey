@@ -38,5 +38,5 @@
 - [x] Key Takeaways: Linking Notion status tracking directly to Github documentation creates a closed-loop learning system, ensuring no terminology gaps before exam days.
 
 **Files Created/Updated:**
-- 'README.md' (Progress Log)
-- 'azure-architecture.md
+- `README.md` (Progress Log)
+- `azure-architecture.md`

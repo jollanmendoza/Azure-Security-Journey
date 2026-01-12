@@ -35,7 +35,7 @@
   - **Learning Status**
   - **GitHub Linkage:** Direct links back to the Azure-Security-Journey repository for integrated documentation.
 - [x] **Interaction Mastery:** Documented the primary methods for interacting with Azure, specifically the Azure Portal (GUI) and the Command Line Interface (CLI).
-- [x] Key Takeaways: Linking Notion status tracking directly to GithHub documentation creates a closed-loop learning system, ensuring no terminology gaps before exam days.
+- [x] **Key Takeaways:** Linking Notion status tracking directly to GithHub documentation creates a closed-loop learning system, ensuring no terminology gaps before exam days.
 
 **Files Created/Updated:**
 - `README.md` (Progress Log)

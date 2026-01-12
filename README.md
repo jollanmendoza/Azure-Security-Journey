@@ -29,13 +29,13 @@
 **Focus:** Azure Interaction Methods & Active Recall Integration
 
 - [x] **Active Recall System:** Within my Notion database, I created the "Active Recall: Responsibility Matrix" table. This table maps concepts across IaaS, PaaS, and SaaS to identify ownership (Consumer, Provider, or Shared)
-- [x] **Glossary Infrastructure:** Within the same Notion database, I configured a second Notion Table for Terminology & Concept Tracking (Updated Version of Day 1 **GRC Tracking**). Which includes:
+- [x] **Glossary Infrastructure:** Within the same Notion database, I configured a second Notion Table for Terminology & Concept Tracking (Updated Version of Day 1 **GRC Tracking**). This includes:
   - **Service/Concept Name**
   - **Exam Tracking (AZ-900/SC-900)**
   - **Learning Status**
   - **GitHub Linkage:** Direct links back to the Azure-Security-Journey repository for integrated documentation.
 - [x] **Interaction Mastery:** Documented the primary methods for interacting with Azure, specifically the Azure Portal (GUI) and the Command Line Interface (CLI).
-- [x] Key Takeaways: Linking Notion status tracking directly to Github documentation creates a closed-loop learning system, ensuring no terminology gaps before exam days.
+- [x] Key Takeaways: Linking Notion status tracking directly to GithHub documentation creates a closed-loop learning system, ensuring no terminology gaps before exam days.
 
 **Files Created/Updated:**
 - `README.md` (Progress Log)

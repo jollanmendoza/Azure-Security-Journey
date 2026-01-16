@@ -34,6 +34,7 @@ Microsoft Azure has these datacenters around the globe, but these individual dat
 **Azure Availability Zones:** Physically separate datacenters within a Azure Region. Each availability zone is made up of one or more datacenters equipped with independent power, cooling, and networking. An availability zone is setup to be an isolation boundary, and if one zone went offline, the other continues to work. Availability zones are connected through high-speed, private fiber-optic networks.
   - Can utilize availability zones to run mission-critical applications and build high availability into your application architecture by co-locating your compute, storage, networking, and data resources within an availability zone and replicating in other availability zones.
  - Availabiliy zones are primarily for virtual machines, managed disks, load balancers, and SQL databases.
+
 Azure services that support availability zones fall into these three catagories:
 - **Zone Services:** Pin the resource to a specific zone.
 - **Zone-Redundant Services:** Teh platform replicates automatically across zones.

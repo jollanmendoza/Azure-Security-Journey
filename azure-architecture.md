@@ -40,3 +40,9 @@ Azure services that support availability zones fall into these three catagories:
 - **Zone-Redundant Services:** Teh platform replicates automatically across zones.
 - **Non-Regional Services:** Services are always available from Azure geographies and are highly resilient to zone-wide outageas as well as region-wide outages.
 
+Most Azure regions are paired with another region within the same geography at least 300 MILES away. This allows for the replication of resources across a geography that assists in reducing the likelihood of interruptions because of events such as natural diasters, civil unrest, power outages, or physical network outages that affect an entire region.
+
+**Advantages of regions pairs:**
+- If an extensive Azure outage occurs, one region out of every pair is prioritized to ensure atleast one is restored as quickly as possible for applications hosted in that region pair.
+- Planned Azure updates are rolled out to paired regions one region at a time to minimize downtime and risk of application outage.
+- Data continues to reside within the same geography as it's pair for tax- and law enforcement jurisdiction purposes.

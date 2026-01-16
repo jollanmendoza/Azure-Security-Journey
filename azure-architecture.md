@@ -28,7 +28,8 @@ The physical infrastructure for Azure starts with Datacenters.
 Microsoft Azure has these datacenters around the globe, but these individual datacenters aren't directly accessible. These datacenters are grouped into Azure Regions/Availability Zones that are designed to assist in achieving resiliency and reliability for buisness-critical workloads.
 
 - **Azure Region:** A region is a geographical area on the planet that contains atleast one or more potential datacenters that are nearby and networked together with a low-laency network.
-  - Azure assign and control the resources within each region to ensure workload are balanced, and as a user when deploying a resource within Azure, you'll often need to choose the region in which you need this resource to be deployed.
+
+ - Azure assign and control the resources within each region to ensure workload are balanced, and as a user when deploying a resource within Azure, you'll often need to choose the region in which you need this resource to be deployed.
 
   - **Azure Availability Zones:** Physically separate datacenters within a Azure Region. Each availability zone is made up of one or more datacenters equipped with independent power, cooling, and networking. An availability zone is setup to be an isolation boundary, and if one zone went offline, the other continues to work. Availability zones are connected through high-speed, private fiber-optic networks.
  - Can utilize availability zones to run mission-critical applications and build high availability into your application architecture by co-locating your compute, storage, networking, and data resources within an availability zone and replicating in other availability zones.

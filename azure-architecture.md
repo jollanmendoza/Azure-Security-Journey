@@ -22,7 +22,10 @@ Azure Portal allows for the usage of command line interface (CLI) with Powershel
 
 ## Azure Physical Infrastructure
 The physical infrastructure for Azure starts with Datacenters.
+ 
   - Facilities with resources arranged in racks, dedicated power, cooling, and network infrastructure.
+
 Microsoft Azure has these datacenters around the globe, but these individual datacenters aren't directly accessible. These datacenters are grouped into Azure Regions/Availability Zones that are designed to assist in achieving resiliency and reliability for buisness-critical workloads.
+
 - **Azure Region:** A region is a geographical area on the planet that contains atleast one or more potential datacenters that are nearby and networked together with a low-laency network.
   - Azure assign and control the resources within each region to ensure workload are balanced, and as a user when deploying a resource within Azure, you'll often need to choose the region in which you need this resource to be deployed.

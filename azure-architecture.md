@@ -19,3 +19,10 @@ Azure Portal allows for the usage of command line interface (CLI) with Powershel
 **Most Azure specific commands begin with the letters az. (For both Powershell & BASH).**
 
 **Azure CLI Interactive Mode:** This changes behavior to more resemble an integrated development enviroment. This mode provides autocompletion, command descriptions, and examples which is perfect for beginners who aren't used to using Powershell or BASH but want to still use the command line. (az interactive is the command to enter this mode).
+
+## Azure Physical Infrastructure
+The physical infrastructure for Azure starts with Datacenters.
+  - Facilities with resources arranged in racks, dedicated power, cooling, and network infrastructure.
+Microsoft Azure has these datacenters around the globe, but these individual datacenters aren't directly accessible. These datacenters are grouped into Azure Regions/Availability Zones that are designed to assist in achieving resiliency and reliability for buisness-critical workloads.
+- **Azure Region:** A region is a geographical area on the planet that contains atleast one or more potential datacenters that are nearby and networked together with a low-laency network.
+  - Azure assign and control the resources within each region to ensure workload are balanced, and as a user when deploying a resource within Azure, you'll often need to choose the region in which you need this resource to be deployed.

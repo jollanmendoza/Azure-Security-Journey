@@ -54,4 +54,5 @@ Most Azure regions are paired with another region within the same geography at l
 
 The management infrastructure includes Azure resources and resource groups, subscriptions, and accounts.
 - A resource is a basic building block of Azure. Anything you create, provision, and deploy.
-      - Virtual Machines, Databases, and Cognitive Services are considered resources of Azure.
+
+  - Virtual Machines, Databases, and Cognitive Services are considered resources of Azure.

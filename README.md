@@ -36,3 +36,17 @@
 **Files Created/Updated:**
 - `README.md` (Progress Log)
 - `azure-architecture.md`
+
+### Day 3: Physical Infrastructure & Resiliency
+**Date:** January 16, 2026
+**Focus:** Datacenters, Regions, and High Availability
+
+- [x] **Physical Layer:** Documented the hierarchy of datacenters - availability zones - regions.
+- [x] **Resiliency Planning:** Studied the "300 mile" rule of Region Pairs and how they ensure business continuity during large-scale disasters.
+- [x] **GRC Integration:** Identified how region pairs maintain residency for legal and tax compliance with the same geography.
+- [x] **Key Takeaways:** Availability zones protect against local (datacenters) failure, while region pairs protect against regional (geographic) disasters.
+
+**Files Created/Updated:**
+- `README.md` (Progress Log)
+- `azure-architecture.md` (Added Physical Infrastructure Section)
+- Notion: Added 5 new terms to Glossary and 3 to responsibility matrix.

@@ -52,30 +52,31 @@ Most Azure regions are paired with another region within the same geography at l
 
 ## Azure Management Infrastructure
 
-The management infrastructure includes Azure resources and resource groups, subscriptions, and accounts.
-- A resource is a basic building block of Azure. Anything you create, provision, and deploy.
+The management infrastructure includes Azure resources, resource groups, subscriptions, and management groups.
 
-  - Virtual Machines, Databases, and Cognitive Services are considered resources of Azure.
+- **Azure Resource:** The basic building block of Azure. This includes anything you create, provision, and deploy (e.g., Virtual Machines, Databases, and Cognitive Services).
 
-Resource groups are grouping of these resources. While a resource group can contain many resources, a single resource can only be within one resource group at a time. Once you move resource to a new group, it will no longer be associated with the former group. Once you applyan action to a resource group, that action will apply to all the resources within the resource group. If you were to delete a resource group, all the resources will be deleted.
+### Resource Groups
+Resource groups are logical groupings of these resources. 
+- While a resource group can contain many resources, a single resource can only be within one resource group at a time. 
+- When you move a resource to a new group, it is no longer associated with the former group. 
+- **Inherited Actions:** Actions applied to a resource group apply to all resources within it. For example, if you delete a resource group, all resources contained within it are also deleted.
 
 ### Azure Subscriptions
+In Azure, subscriptions are a unit of management, billing, and scale. They allow you to logically organize resource groups and facilitate granular cost management.
 
-Within Azure, subscriptions are a unit of management, billing, and scale. Subscriptions allow you to logically organize your resource group and facilitate billing.
+- **Billing Boundary:** This determines how an Azure account is billed. You can create multiple subscriptions for different billing requirements. Azure generates separate billing reports and invoices for each subscription.
+- **Access Control Boundary:** Azure applies access management policies at the subscription level. You can create separate subscriptions to reflect different organizational structures or security requirements.
 
-- **Billing Boundary:** This subscription type determines how an Azure account is billed for using Azure. You can create multiple subscriptions for different types of billing requirements. Azure generates seperate billing reports and invoices for each subscription so that you can organize and manage costs.
-- **Access Controls Boundary:** Azure applies access management policies at the subscription level, and you can create separate subscriptions to reflect different organizational structures. This billing method allows to manage and control access to the resources that users provision with specific subscriptions.
-
-### Create Additional Azure Subscriptions
-- **Environment:** You can choose to create subscriptions to setup separate environments for development and testing, security, or to isolate data for compliance reasons. This design is useful because resource access control occurs at the subscription level.
-- **Organizational Structures:** You can create subscriptions to reflect different organizational structures. This designs allowsto manage and control access to the resources that users provision within each subscription.
-- Billing:** You can create additional subscriptions for billing purposes.
+#### Reasons to Create Additional Subscriptions:
+- **Environments:** Creating separate subscriptions for development, testing, and production to isolate data for compliance reasons.
+- **Organizational Structure:** Reflecting different departments (e.g., Finance, IT, Marketing) to manage access and resources independently.
+- **Billing:** Isolating costs for specific projects or clients for easier accounting.
 
 ### Azure Management Groups
+Azure management groups provide a scope level above subscriptions. You can organize subscriptions into management groups and apply governance conditions that are inherited by all subscriptions within that group.
 
-Azure management groups provide a level of scope above subscriptions. You can organize subscriptions into containers called management groups and apply governance conditions to the management group. Management groups provide enterprise-grade management at a large scale, no matter the type of subscriptions you might have.
-
-**Facts of Management Groups:**
-- 10,000 management groups can be supported in a single directory.
-- A management group tree can support up to six levels of depth. This limit doesn't include the root level or the subscription level.
-- Each management group and subscription can support only one parent.
+**Key Facts of Management Groups:**
+- **Scale:** Supports up to 10,000 management groups in a single directory.
+- **Depth:** A management group tree can support up to six levels of depth (excluding the root and subscription levels).
+- **Hierarchy:** Each management group and subscription can support only one parent.

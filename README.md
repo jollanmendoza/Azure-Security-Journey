@@ -50,3 +50,17 @@
 - `README.md` (Progress Log)
 - `azure-architecture.md` (Added Physical Infrastructure Section)
 - Notion: Added 5 new terms to Glossary and 3 to responsibility matrix.
+
+### Day 4: Logical Infrastructure & Governance Hierarchy
+**Date:** January 17, 2026
+**Focus:** Resource Organization, Subscriptions, and Management Groups
+
+- [x] **Hierarchy Mastery:** Documented the 4-level management hierarchy: **Management Groups → Subscriptions → Resource Groups → Resources.**
+- [x] **Governance at Scale:** Explored how Management Groups allow for "Enterprise-grade" governance by applying conditions to 10,000+ groups in a single directory.
+- [x] **Compliance Isolation:** Analyzed how to use separate subscriptions for **Environment Isolation** (Dev vs. Prod) to satisfy audit and compliance requirements.
+- [x] **Key Takeaway:** Governance is inherited. Applying a security policy at the Management Group level ensures every resource below it is compliant by default.
+
+**Files Created/Updated:**
+- `README.md` (Progress Log)
+- `azure-architecture.md` (Added Management Infrastructure Section)
+- Notion: Added 5 new terms to Glossary and 3 to responsibility matrix.

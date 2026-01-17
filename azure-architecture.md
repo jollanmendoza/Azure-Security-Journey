@@ -49,3 +49,9 @@ Most Azure regions are paired with another region within the same geography at l
 - **Recovery Priority:** If an extensive Azure outage occurs, one region out of every pair is prioritized to ensure at least one is restored as quickly as possible for applications hosted in that region pair.
 - **Sequential Updates:** Planned Azure updates are rolled out to paired regions one region at a time to minimize downtime and risk of application outages.
 - **Data Residency:** Data continues to reside within the same geography as its pair for tax and law enforcement jurisdiction purposes.
+
+### Azure Management Infrastructure
+
+The management infrastructure includes Azure resources and resource groups, subscriptions, and accounts.
+- A resource is a basic building block of Azure. Anything you create, provision, and deploy.
+      - Virtual Machines, Databases, and Cognitive Services are considered resources of Azure.

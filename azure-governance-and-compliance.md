@@ -1,5 +1,7 @@
 # Azure Management and Governance
 
+## Factors That Can Affect Costs in Azure
+
 Azure shifts development costs from the capital expense (CapEx) of building out and maintaining infrastructure and facilities to an operational expense (OpEx) of renting infrastructure as you need, whether it's compute, storage, network, or any other needs.
 
 **OpEx cost can be impacted by many factors:**

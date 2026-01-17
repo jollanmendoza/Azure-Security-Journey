@@ -50,7 +50,7 @@ Most Azure regions are paired with another region within the same geography at l
 - **Sequential Updates:** Planned Azure updates are rolled out to paired regions one region at a time to minimize downtime and risk of application outages.
 - **Data Residency:** Data continues to reside within the same geography as its pair for tax and law enforcement jurisdiction purposes.
 
-### Azure Management Infrastructure
+## Azure Management Infrastructure
 
 The management infrastructure includes Azure resources and resource groups, subscriptions, and accounts.
 - A resource is a basic building block of Azure. Anything you create, provision, and deploy.
@@ -59,7 +59,7 @@ The management infrastructure includes Azure resources and resource groups, subs
 
 Resource groups are grouping of these resources. While a resource group can contain many resources, a single resource can only be within one resource group at a time. Once you move resource to a new group, it will no longer be associated with the former group. Once you applyan action to a resource group, that action will apply to all the resources within the resource group. If you were to delete a resource group, all the resources will be deleted.
 
-## Azure Subscriptions
+### Azure Subscriptions
 
 Within Azure, subscriptions are a unit of management, billing, and scale. Subscriptions allow you to logically organize your resource group and facilitate billing.
 
@@ -67,4 +67,15 @@ Within Azure, subscriptions are a unit of management, billing, and scale. Subscr
 - **Access Controls Boundary:** Azure applies access management policies at the subscription level, and you can create separate subscriptions to reflect different organizational structures. This billing method allows to manage and control access to the resources that users provision with specific subscriptions.
 
 ### Create Additional Azure Subscriptions
-- **Environment:**
+- **Environment:** You can choose to create subscriptions to setup separate environments for development and testing, security, or to isolate data for compliance reasons. This design is useful because resource access control occurs at the subscription level.
+- **Organizational Structures:** You can create subscriptions to reflect different organizational structures. This designs allowsto manage and control access to the resources that users provision within each subscription.
+- Billing:** You can create additional subscriptions for billing purposes.
+
+### Azure Management Groups
+
+Azure management groups provide a level of scope above subscriptions. You can organize subscriptions into containers called management groups and apply governance conditions to the management group. Management groups provide enterprise-grade management at a large scale, no matter the type of subscriptions you might have.
+
+**Facts of Management Groups:**
+- 10,000 management groups can be supported in a single directory.
+- A management group tree can support up to six levels of depth. This limit doesn't include the root level or the subscription level.
+- Each management group and subscription can support only one parent.

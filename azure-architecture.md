@@ -22,8 +22,6 @@ The Azure Portal allows for the usage of a Command Line Interface (CLI) with Pow
 
 ## Azure Physical Infrastructure
 
-
-
 The physical infrastructure for Azure starts with Datacenters.
 - Facilities with resources arranged in racks, dedicated power, cooling, and network infrastructure.
 

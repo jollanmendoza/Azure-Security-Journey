@@ -66,5 +66,5 @@ Within Azure, subscriptions are a unit of management, billing, and scale. Subscr
 - **Billing Boundary:** This subscription type determines how an Azure account is billed for using Azure. You can create multiple subscriptions for different types of billing requirements. Azure generates seperate billing reports and invoices for each subscription so that you can organize and manage costs.
 - **Access Controls Boundary:** Azure applies access management policies at the subscription level, and you can create separate subscriptions to reflect different organizational structures. This billing method allows to manage and control access to the resources that users provision with specific subscriptions.
 
-##Create Additional Azure Subscriptions
+## Create Additional Azure Subscriptions
 - **Environment:**

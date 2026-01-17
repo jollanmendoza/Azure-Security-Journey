@@ -20,8 +20,6 @@ The Azure Portal allows for the usage of a Command Line Interface (CLI) with Pow
 
 **Azure CLI Interactive Mode:** This changes behavior to more closely resemble an Integrated Development Environment (IDE). This mode provides autocompletion, command descriptions, and examples, which is perfect for beginners who aren't used to using PowerShell or BASH but still want to use the command line. (`az interactive` is the command to enter this mode).
 
----
-
 ## Azure Physical Infrastructure
 
 

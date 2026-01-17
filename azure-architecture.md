@@ -59,12 +59,12 @@ The management infrastructure includes Azure resources and resource groups, subs
 
 Resource groups are grouping of these resources. While a resource group can contain many resources, a single resource can only be within one resource group at a time. Once you move resource to a new group, it will no longer be associated with the former group. Once you applyan action to a resource group, that action will apply to all the resources within the resource group. If you were to delete a resource group, all the resources will be deleted.
 
-### Azure Subscriptions
+## Azure Subscriptions
 
 Within Azure, subscriptions are a unit of management, billing, and scale. Subscriptions allow you to logically organize your resource group and facilitate billing.
 
 - **Billing Boundary:** This subscription type determines how an Azure account is billed for using Azure. You can create multiple subscriptions for different types of billing requirements. Azure generates seperate billing reports and invoices for each subscription so that you can organize and manage costs.
 - **Access Controls Boundary:** Azure applies access management policies at the subscription level, and you can create separate subscriptions to reflect different organizational structures. This billing method allows to manage and control access to the resources that users provision with specific subscriptions.
 
-## Create Additional Azure Subscriptions
+### Create Additional Azure Subscriptions
 - **Environment:**

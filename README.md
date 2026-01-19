@@ -65,8 +65,9 @@
 - `azure-architecture.md` (Added Management Infrastructure Section)
 - Notion: Added 5 new terms to Glossary and 3 to responsibility matrix.
 
-Day 5: Azure Management & Cloud Economics
-Date: January 18, 2026 Focus: Cost Factors, Billing Zones, and Marketplace Compliance
+### Day 5: Azure Management & Cloud Economics
+**Date:** January 18, 2026 
+**Focus:** Cost Factors, Billing Zones, and Marketplace Compliance
 
 - [x] Economics Transition: Documented the shift from CapEx to OpEx and the factors influencing variable costs.
 - [x] Financial Governance: Analyzed "Pay-as-you-go" vs. "Reserved Capacity" (1-3 year commitments) for cost optimization.
@@ -77,5 +78,5 @@ Date: January 18, 2026 Focus: Cost Factors, Billing Zones, and Marketplace Compl
 Files Created/Updated:
 **Files Created/Updated:**
 - `README.md` (Progress Log)
-`azure-governance-and-compliance.md` (new file started)
- Notion: Added 4 new terms and 2 recall questions.
+- `azure-governance-and-compliance.md` (new file started)
+-  Notion: Added 4 new terms and 2 recall questions.

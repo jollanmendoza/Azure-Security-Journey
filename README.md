@@ -69,13 +69,12 @@
 **Date:** January 18, 2026 
 **Focus:** Cost Factors, Billing Zones, and Marketplace Compliance
 
-- [x] Economics Transition: Documented the shift from CapEx to OpEx and the factors influencing variable costs.
-- [x] Financial Governance: Analyzed "Pay-as-you-go" vs. "Reserved Capacity" (1-3 year commitments) for cost optimization.
-- [x] Network Cost Modeling: Defined the difference between Inbound (Free) and Outbound (Paid) data transfers across Billing Zones.
-- [x] Marketplace Integrity: Noted that all 3rd-party solutions in the Azure Marketplace must be certified and compliant with Azure standards.
-- [x] Key Takeaway: Geography isn't just about latency; it's about local tax, labor, and power costs which directly influence the resource price point.
+- [x] **Economics Transition:** Documented the shift from CapEx to OpEx and the factors influencing variable costs.
+- [x] **Financial Governance:** Analyzed "Pay-as-you-go" vs. "Reserved Capacity" (1-3 year commitments) for cost optimization.
+- [x] **Network Cost Modeling:** Defined the difference between Inbound (Free) and Outbound (Paid) data transfers across Billing Zones.
+- [x] **Marketplace Integrity:** Noted that all 3rd-party solutions in the Azure Marketplace must be certified and compliant with Azure standards.
+- [x] **Key Takeaway:** Geography isn't just about latency; it's about local tax, labor, and power costs which directly influence the resource price point.
 
-Files Created/Updated:
 **Files Created/Updated:**
 - `README.md` (Progress Log)
 - `azure-governance-and-compliance.md` (new file started)

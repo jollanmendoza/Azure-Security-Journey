@@ -75,4 +75,7 @@ Date: January 18, 2026 Focus: Cost Factors, Billing Zones, and Marketplace Compl
 - [x] Key Takeaway: Geography isn't just about latency; it's about local tax, labor, and power costs which directly influence the resource price point.
 
 Files Created/Updated:
- `azur
+**Files Created/Updated:**
+- `README.md` (Progress Log)
+`azure-governance-and-compliance.md` (new file started)
+ Notion: Added 4 new terms and 2 recall questions.

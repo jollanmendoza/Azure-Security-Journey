@@ -40,18 +40,18 @@ Network traffic is also impacted based on the geography. It is generally less ex
 
 Billing zones play a factor in determining the cost of some Azure services. A zone is a geographical grouping of Azure regions for billing purposes.
 
-
-
 Bandwidth refers to data moving in and out of Azure datacenters.
 - **Inbound data transfers:** Free (Data going into Azure datacenters).
 - **Outbound data transfers:** Priced based on zones (Data leaving Azure datacenters).
 
 ## Subscription Type
 
-Some Azure subscription types include usage allowances, which can affect potential costs (e.g., Free Trial, Student, or Enterprise Agreements).
+Some Azure subscription types include usage allowances, which can affect potential costs.
 
 ## Azure Marketplace
 
 Azure Marketplace allows you to purchase Azure-based solutions and services from third-party vendors. When you purchase products on the marketplace, you may pay not only for the Azure services you're using, but also for the services and expertise of the third-party vendor. 
 
 **All solutions available in Azure Marketplace are certified and compliant with Azure policies and standards.**
+
+##

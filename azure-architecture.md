@@ -54,4 +54,43 @@ Azure Marketplace allows you to purchase Azure-based solutions and services from
 
 **All solutions available in Azure Marketplace are certified and compliant with Azure policies and standards.**
 
-##
+## Pricing Calculator
+
+The pricing caculator is designed to give an estimated for provisioning resources in Azure. You can get a estimate for individual resources, build out a solution, and use an example scenario to see an estimate of the Azure expense. This calculator allows to get a insight o fthe cost of provisioned resources in Azure.
+
+You can estimate the cost of any provisioned resources, including compute, storage, and associated network costs. You can account for different storage option such as:
+- Storage Types.
+- Access Tier.
+- Redundancy.
+
+## Microsoft cost Management Tool
+
+Cost management provides the ability to quickly assess Azure resource costs, create alerts based on resource spend, and create budgets that can be utilized to automate management of resources.
+
+Cost analysis is a subnet of Cost management that provides a quick visual of your Azure costs. Using cost analysis, you can view the total cost in a variety of different ways, including by billing cycle, region, and resources.
+
+You can use cost analysis to both explore and analyze your organizational costs. Visualize where costs are accrued and identify spending trends. Also allows to view accumulated costs over time to estimate monthly, quaterly, and yearly cost trends.
+
+## Cost Alerts
+
+Cost alerts provide a single location to check on all different alert types that may show up in the Cost management service. 
+
+Three types of alerts:
+- Budget Alerts.
+- Credit Alerts.
+- Department Spending Quota Alerts.
+
+## Budget Alerts
+
+Budget alerts notify you when spending, based on usage or cost, reaches or exceeds the amount defined in the alert condition of the budget. Cost management budgets are created using the Azure portal or the Azure comsumption API.
+
+Within the Azure portal, budgets are defined by costs. Budgets are defined by cost or by the cost of consumption usage when using the Azure consumption API. Budget alert systems support both cost-based and usage-based budgets. Budget alerts are generated automatically whenever the budget alert condtions are met.
+
+## Credit Alerts
+
+Credit alerts notify when your Azure credit monetary commitments are consumed. Monetary commitments are for organizations with Enterprise Agreements (EAs). Credit alerts are generated automatically at 90% and 100% of your Azure credit balance.
+
+## Department Spending Quota Alerts
+
+Department spending quota alerts notify you when department spending reaches a fixed threshold of the quota. Spending qoutas are configured in the EA portal. Whenever a threshold is met, it generates a email to the department owners, and apears in the cost alerts.
+

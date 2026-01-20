@@ -1,49 +1,49 @@
 # Describe Azure Compute and Networking Services
 
-## Describe Azure Virtual Machines
+## Azure Virtual Machines
 
-With Azure Virtual Machines (VMs), a user can create and use VMs within the cloud. Virtual Machines provide IaaS in the form of a virtualized server and can be used in various ways.
+With Azure Virtual Machines (VMs), a user can create and use VMs within the cloud. Virtual Machines provide Infrastructure as a Service (IaaS) in the form of a virtualized server and can be used in various ways.
 
-Virtual Machines are just like phyiscal computers, allowing users to customize all of the software running on your VM. 
+Virtual Machines are just like physical computers, allowing users to customize all of the software running on the VM. 
 
-VMs can be used to:
-- Control over the operating system.
+**VMs allow for:**
+- Total control over the operating system.
 - Ability to run custom software.
-- Use custom host configurations.
+- Use of custom host configurations.
 
-Azure VMs offer flexibility of virtualization without having to either buy or maintain the physical hardware that runs the VM itself, but as an IaaS offering, you still need to configure, update, and maintain the software that runs on the VM.
+Azure VMs offer the flexibility of virtualization without having to buy or maintain the physical hardware that runs the VM itself. However, as an IaaS offering, you still need to configure, update, and maintain the software that runs on the VM.
 
-Can also use a already created VM image. An image is a template used to create a VM and may already include an OS and other software such as development tools and web hosting environments.
+Users can also use a pre-created **VM Image**. An image is a template used to create a VM and may already include an OS and other software such as development tools and web hosting environments.
 
-# Scale VMs in Azure
+## Scaling VMs in Azure
 
-Run single VMs for testing, development, or minor tasks. Also can group VMs together to provide high availability, scalability, and redundancy. Azure also manage the grouping of VMs for you with features such as Scale Sets and Availability Sets.
+You can run single VMs for testing, development, or minor tasks. You can also group VMs together to provide high availability, scalability, and redundancy. Azure manages the grouping of VMs for you with features such as Scale Sets and Availability Sets.
 
-## Virtual Machine Scale Sets
+### Virtual Machine Scale Sets
+Scale Sets allow users to create and manage a group of identical, load-balanced VMs. With Scale Sets, Azure automates most of the work, allowing you to centrally manage, configure, and update a large number of VMs in minutes. 
 
-Scale Sets allow users to create and manage a group of identical, load-balanced VMs. Virtual machine scale sets, Azure automates most of the work. Scale sets allow you to centrally manage, configure, and update a large numbe of VMs in minutes. The number of VM instances can automatically increase or decrease in response to demand, or you can set it to scale based on a defined schedule. Virtual machine scales sets also automatically deploy a load balancer to make sure that your resources being used efficiently. With virtual machine scale sets, users can build large-scale services for areas such as compute, big data, and container workloads.
+- **Auto-scaling:** The number of VM instances can automatically increase or decrease in response to demand, or you can set it to scale based on a defined schedule. 
+- **Efficiency:** Scale Sets automatically deploy a load balancer to ensure resources are being used efficiently. 
+- **Use Case:** Building large-scale services for compute, big data, and container workloads.
 
-## Virtual Machines availability Sets
+### Virtual Machine Availability Sets
+Availability Sets are another tool to assist in building a more resilient and highly available environment. They ensure that VMs stagger updates and have redundant power and network connectivity, preventing the potential loss of all VMs due to a single network or power failure.
 
-Virtual machines availability sets another tool to assist in building a more resilient and highly avaiable environment. Availability sets are designed to ensure that VMs stagger updates and have multiple power and network connectivity, preventing potential lose of all your VMs with a single network or power failure.
-
-**Availability Aets Acommplish:**
-- **Update Domain:** The update domain group VMs that can be rebooted at the same time. This allows the user to apply updates while knowing that only one update domain grouping is offline at a time. All of the machines in a one upddate domain update. An update group going through the update process is given 30 min time to recover before maintenance on the next update domain continues.
-- **Fault Domain:** The fault domain groups your VMs by common power source and network switch. By default, an availability set splits your VMs across up to three fault domains. This asissts in protecting against a physical power or networking failure by having VMs in different fault domains.
+**Availability Sets Accomplish:**
+- **Update Domain (UD):** The update domain groups VMs that can be rebooted at the same time. This allows the user to apply updates while knowing that only one update domain grouping is offline at a time. An update group going through the update process is given a 30-minute recovery window before maintenance on the next update domain continues.
+- **Fault Domain (FD):** The fault domain groups VMs by a common power source and network switch. By default, an availability set splits your VMs across up to three fault domains. This protects against a physical power or networking failure.
 
 ## When to Use Virtual Machines
-- **During Testing and Development.**
-- **When Running Applications In The Cloud.**
-- **When Extending Your DataCenter.**
-- **During Disaster Recovery.**
+- **Testing and Development:** Quickly creating and disposing of environments.
+- **Running Applications in the Cloud:** Hosting apps that require specific OS configurations.
+- **Extending Your Datacenter:** Connecting on-premises servers to the cloud.
+- **Disaster Recovery:** Creating backup instances in case of a primary site failure.
 
-## Move To The Cloud With VMs
+## Move to the Cloud with VMs (Lift and Shift)
+VMs are an excellent choice when moving from a physical server to the cloud. You can create an image of the physical server and host it within a VM with little to no change. Just like a physical on-premises server, you must maintain the virtual machine because you are responsible for maintaining the installed OS and software.
 
-VMs also an excellent choice when you move from physical server to the cloud (Lift and Shift). Can also create an image of the physical server and host it within a VM with little to 0 change. Just like a physical on-premises server, you must maintain the virtual machine because you're responsible for maintaining the installed OS and software.
-
-## Virtaul Machines Resources
-
-When you provision a VM, a user will have a chance to pick the resources that are associated with that VM:
-- **Size.**
-- **Storage Disks.**
-- **Networking.**
+## Virtual Machine Resources
+When you provision a VM, you will pick the resources associated with that instance:
+- **Size:** (Determines CPU and RAM).
+- **Storage Disks:** (Managed disks for data).
+- **Networking:** (Virtual Network and IP configurations).

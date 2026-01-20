@@ -79,3 +79,21 @@
 - `README.md` (Progress Log)
 - `azure-governance-and-compliance.md` (new file started)
 -  Notion: Added 4 new terms and 2 recall questions.
+
+### Day 6: Cost Management & Financial Governance
+**Date:** January 19, 2026
+**Focus:** Cost Estimation, Budgeting, and Financial Oversight
+
+- [x] **Cost Estimation Mastery:** Documented the use of the **Azure Pricing Calculator** to forecast expenses for Compute, Storage, and Networking prior to deployment.
+- [x] **Automated Governance:** Analyzed the three primary **Cost Alert** types:
+    - **Budget Alerts:** Threshold-based notifications for usage/cost.
+    - **Credit Alerts:** Specific for Enterprise Agreements (EA) monetary commitments.
+    - **Department Quotas:** Email notifications for department-level spending thresholds.
+- [x] **Key Takeaway:** Financial governance in Azure is proactive. Using calculators to plan and alerts to monitor ensures the OpEx model remains predictable and stays within organizational compliance boundaries.
+
+
+
+**Files Created/Updated:**
+- `README.md` (Progress Log)
+- `azure-governance-and-compliance.md` (Completed the Financial Governance chapter)
+- Notion: Added 5 new Glossary terms and 3 Active Recall questions focused on Cost Management.

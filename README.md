@@ -91,9 +91,25 @@
     - **Department Quotas:** Email notifications for department-level spending thresholds.
 - [x] **Key Takeaway:** Financial governance in Azure is proactive. Using calculators to plan and alerts to monitor ensures the OpEx model remains predictable and stays within organizational compliance boundaries.
 
-
-
 **Files Created/Updated:**
 - `README.md` (Progress Log)
 - `azure-governance-and-compliance.md` (Completed the Financial Governance chapter)
-- Notion: Added 5 new Glossary terms and 3 Active Recall questions focused on Cost Management.
+- Notion: Added 5 new Glossary terms and 3 Active Recall questions.
+
+### Day 7: Cloud Service Models & Compute Infrastructure
+**Date:** January 20, 2026
+**Focus:** Shared Responsibility (IaaS/PaaS/SaaS) and Virtual Machine Resiliency
+
+- [x] **Service Model Architecture:** Documented the transition of responsibility from consumer to provider across IaaS, PaaS, and SaaS models.
+- [x] **Infrastructure as a Service (IaaS)**: Detailed the "Lift and Shift" migration strategy and the user's responsibility for OS patching, configuration, and security.
+- [x] **High Availability (HA) Mechanics:** Analyzed how Azure protects workloads using:
+  - Fault Domains: Physical hardware redundancy against power/network failure.
+  - Update Domains: Logical groupings to ensure staggered reboots during maintenance.
+- [x] **Elasticity & Scaling:** Documented Virtual Machine Scale Sets for automated, load-balanced horizontal scaling of identical VM instances.
+- [x] **Key Takeaway:** As a GRC professional, the shift from IaaS to SaaS represents a significant transfer of technical risk to Microsoft, though the consumer always retains the "Root Responsibility" for Data, Identities, and Endpoints.
+
+**Files Created/Updated:**
+- `README.md` (Progress Log)
+- `cloud-fundamentals.md` (Added IaaS, PaaS, and SaaS sections)
+- `azure-compute-and-networking.md` (New file started; documented VMs, Scale Sets, and Availability Sets)
+- Notion: Added 8 new Glossary terms and 3 Active Recall questions.

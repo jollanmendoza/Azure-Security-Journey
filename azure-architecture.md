@@ -41,7 +41,7 @@ Physically separate datacenters within an Azure Region. Each Availability Zone i
 - **Zone-Redundant Services:** The platform replicates automatically across zones.
 - **Non-Regional Services:** Services are always available from Azure geographies and are highly resilient to zone-wide outages as well as region-wide outages.
 
-- ### Azure Region Pairs
+### Azure Region Pairs
 Most Azure regions are paired with another region within the same geography at least **300 miles** away. This allows for the replication of resources across a geography that assists in reducing the likelihood of interruptions because of events such as natural **disasters**, civil unrest, power outages, or physical network outages that affect an entire region.
 
 **Advantages of Region Pairs:**
